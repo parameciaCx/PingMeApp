@@ -1,19 +1,52 @@
-This app is developed using the MEAN(mongodb,express,angularjs, and nodejs) stack.
-For my project I used express,body parser, jsonwebtoken, mongoose and morgan for my backend framework. Angular, bootstrap, chartjs, and ngToast for my frontend framework
+# PingMeApp
+
+This application pings a user on the site every so often, prompting them for their current activity. The user can add choose an activity from an existing list of tags, or submit an application for a new tag, that can be approved by users of a higher level (e.g. staff, admin). The user can see a visualization of their activities, and can also see the activities of the entire user base as a whole. 
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Nodejs
+MongoDB
+```
+
+### Installing
 
 
-Setup instruction:
-1.You need to install Nodejs and MongoDB on your computer in order to run this application, you can get robomongo for easier account management, but it's not required.
-2.After installing nodejs and mongodb, run mongod.exe to start the local server.
-3.After starting the server, start a commandline prompt in the root project folder, (shift right click->start commandline here)
-4.type in "npm install" and enter, wait for it to finish
-5.type "node server.js" and enter, and the app should be ready to go.
-6.Access app at http://localhost:3000/
+1.After installing nodejs and mongodb, run mongod.exe to start the local server.
 
-after you installed this software
-extract the app.zip file
-go to server.js file at line no 13 and replace by this url var url = 'mongodb://localhost/your_data_base_name' 
-cd into the folder and open the cmd and then type 'node server.js' 
+2.After starting the server, start a commandline prompt in the root project folder, (shift right click > start commandline here)
 
-that's all, if every things goes well your application will be start on this url
-http://localhost:3000/
+3.type in "npm install" and enter, wait for it to finish
+
+4.type "node server.js" and enter, and the app should be ready to go.
+
+5.Access app at http://localhost:3000/
+
+
+## Built With
+
+### Back-end
+
+ - Express
+ - Body parser
+ - JWT
+ - Mongoose
+ - Morgan
+
+### Front-end
+
+ - Angular
+ - bootstrap
+ - charjs
+ - ngToast
+
+## In Development
+
+* Friend feature, allows users to communicate
+* Tweets (friends or public)
