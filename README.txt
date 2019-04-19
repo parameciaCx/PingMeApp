@@ -1,4 +1,4 @@
-This app is developed using the MEAN(mongodb,express,angularjs, and nodejs) stack. It is different from what I originally intended in my project proposal because at the time
+This app is developed using the MEAN(mongodb,express,angularjs, and nodejs) stack.
 For my project I used express,body parser, jsonwebtoken, mongoose and morgan for my backend framework. Angular, bootstrap, chartjs, and ngToast for my frontend framework
 
 
