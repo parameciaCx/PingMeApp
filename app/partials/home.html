@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="jumbotron">
+            <p class="strong">Welcome to PingMe App, by CP317 group 34, Zizhou Zhang (#140582410)</p>
+
+      <modal visible="showModal" style="margin-top:200px" ng-hide="isAdmin" ng-init="getTags()">
+              <button ng-repeat="tag in tags" style="margin-left:20px" type="button" class="btn btn-primary" data-dismiss="modal" 
+          ng-click="tagClick(tag.tagName)">{{tag.tagName}}</button>        
+    </modal>            
+        </div>
+    </div>
+</div>
+

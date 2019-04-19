@@ -1,0 +1,16 @@
+<div class="row" ng-init="getUserVisualization()">
+    <h2>Visualization</h2>
+  <div class="col-md-3 col-sm-4" style="margin-top:7%">
+    <canvas ng-hide="isAdmin" id="pie" class="chart chart-pie"
+      chart-data="tagsDataArray" chart-labels="tagsNameArray" chart-options="options">
+    </canvas> 
+    <canvas ng-show="isAdmin" id="pie" class="chart chart-pie"
+      chart-data="tagsDataArray" chart-labels="tagsNameArray" chart-options="options">
+    </canvas> 
+  </div>
+  <div class="col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-4" style="margin-top:7%">
+    <canvas ng-show="isAdmin" id="bar" class="chart chart-bar"
+      chart-data="tagsDataArray" chart-labels="tagsNameArray" chart-options="options">
+    </canvas>     
+  </div>
+</div>
