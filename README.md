@@ -41,7 +41,7 @@ MongoDB
 
  - Angular
  - bootstrap
- - charjs
+ - chartjs
  - ngToast
 
 ## In Development
